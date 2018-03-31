@@ -1,0 +1,82 @@
+
+body {
+	background-color: white;
+	font-family: "Helvetica Neue", Helvetica, serif;
+	margin-top: 60px;
+	margin-bottom: 75px;
+	margin-right: 110px;
+	margin-left: 110px;
+}
+
+i.soc-media {
+	font-size:24px;
+	float:right;
+	margin-right:5%;
+	margin-left:5%;
+	margin-bottom:5%;
+	color:black;
+}
+
+p.my-img-txt {
+	font-size: 16px;
+	color: black;
+	float: left;
+	margin-right: 30px;
+	line-height: 1.4;
+}
+
+p.all-txt {
+	font-size: 16px;
+	color: black;
+	float: left;
+	line-height: 1.4;
+}
+
+img.port-thumb {
+	width: 80%;
+	border: 3px solid red;
+	border-radius: 3px;
+	padding: 5px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+
+img.my-image {
+		width: 100%;
+    border: 3px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+}
+
+.btn-group button {
+    background-color: white; /* White background */
+    border: 1px solid white; /* White border */
+		border-radius: 8%; /* Rounded buttons */
+    color: grey; /* Grey text */
+    padding: 0px 30px 0px 30px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+		float: left; /* Float the buttons side by side */
+		font-size: 12px; /* Control button font size */
+		margin-left: 2px;
+		margin-right: 2px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+}
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #F5F5F5;
+}
